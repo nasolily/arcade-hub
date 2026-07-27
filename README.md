@@ -6,7 +6,7 @@
 
 🌷 **React** • **Vite** • **Playwright** 🌷
 
-![🕹️ Live Demo](https://nasolily.github.io/arcade-hub/#)
+<a [href="https://nasolily.github.io/arcade-hub/#" target="_blank">🕹️ Live Demo</a>
 
 </div>
 

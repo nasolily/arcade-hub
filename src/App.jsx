@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import { HashRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import { SettingsProvider } from './context/SettingsContext';
 import { AppBase } from './components/AppShell';

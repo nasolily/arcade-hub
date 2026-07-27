@@ -56,7 +56,7 @@ const router = createHashRouter([
         ),
       },
     ],
-  }, {basename: "/final-project-nadia-cowins"},
+  }, {basename: "/arcade-hub"},
 ]);
 
 createRoot(document.getElementById("root")).render(

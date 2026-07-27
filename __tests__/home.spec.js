@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const APP_URL = 'https://it3049c-lively-fa23.github.io/final-project-nadia-cowins/';
+const APP_URL = 'https://github.com/nasolily/arcade-hub/#/';
 
 test('Home screen loads with the correct title', async ({ page }) => {
   await page.goto(APP_URL);

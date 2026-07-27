@@ -13,7 +13,7 @@ export function AppLayout() {
   return (
     <main>
       <header>
-        <h1>Welcome to PrismPlay</h1>
+        <h1>Welcome to the Arcade Hub</h1>
         <p>Developed by: Nadia Cowins</p>
       </header>
       <Navigation />

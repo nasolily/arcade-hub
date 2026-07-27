@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
 
 export async function loginAndStart(page) {
-  await page.goto('https://it3049c-lively-fa23.github.io/final-project-nadia-cowins/#/lobby');
+  await page.goto('https://github.com/nasolily/arcade-hub/#/lobby');
 
   // enter player name
   await page.locator('#player-name').fill('Nadia');

@@ -11,7 +11,7 @@ test.describe('Rock Paper Scissors Game', () => {
     await loginAndStart(page);
 
     // navigate to RPS
-    await page.goto('https://github.com/nasolily/arcade-hub/#/game/rps');
+    await page.goto('https://nasolily.github.io/arcade-hub/#/game/rps');
 
     // click 'Rock'
     await page.getByRole('button', { name: 'Rock', exact: true }).click();
@@ -24,7 +24,7 @@ test.describe('Rock Paper Scissors Game', () => {
 
   test('should reset the score correctly', async ({ page }) => {
     await loginAndStart(page);
-    await page.goto('https://github.com/nasolily/arcade-hub/#/game/rps');
+    await page.goto('https://nasolily.github.io/arcade-hub/#/game/rps');
 
     await page.getByRole('button', { name: 'Paper', exact: true }).click();
     await page.getByRole('button', { name: /Reset Game/i }).click();

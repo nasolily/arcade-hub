@@ -10,7 +10,7 @@ test.describe('Tic-Tac-Toe Game Logic', () => {
   test.beforeEach(async ({ page }) => {
     // navigate and login
     await loginAndStart(page);
-    await page.goto('https://github.com/nasolily/arcade-hub/#/game/tic-tac-toe');
+    await page.goto('https://nasolily.github.io/arcade-hub/#/game/tic-tac-toe');
     
     // safety check: wait for the board to render
     await expect(page.locator('.game-board')).toBeVisible();

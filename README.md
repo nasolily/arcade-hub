@@ -2,7 +2,7 @@
 
 # 🎮🌸 Arcade Hub 🌸🎮
 
-*A cozy React web app where classic games come together in one very pink lobby.*
+*A React web app where classic games come together in one very pink lobby.*
 
 🌷 **React** • **Vite** • **Playwright** 🌷
 

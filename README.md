@@ -2,7 +2,7 @@
 
 # 🎮🌸 Arcade Hub 🌸🎮
 
-*A cozy React web app where classic games come together in one colorful lobby!*
+*A React web app where classic games come together in one very pink lobby.*
 
 🌷 **React** • **Vite** • **Playwright** 🌷
 
@@ -20,17 +20,12 @@
 
 ## ✨ Features
 
-🎮 Multiple classic web-based games
-
-🩷 Shared Lobby with customizable player settings
-
-🎨 Responsive React interface
-
-🌙 Global theme management using React Context
-
-🧪 Automated end-to-end testing with Playwright
-
-🚀 Deployed with GitHub Pages & GitHub Actions
+- Multiple classic web-based games
+- Shared Lobby with customizable player settings
+- Responsive React interface
+- Global theme management using React Context
+- Automated end-to-end testing with Playwright
+- Deployed with GitHub Pages & GitHub Actions
 
 ---
 
@@ -90,13 +85,10 @@ npm run deploy
 
 ## 🌱 What I Learned
 
-💖 Separating game logic from UI components made the project much easier to maintain.
-
-💖 React Context helps to manage shared settings across multiple pages.
-
-💖 Organizing larger React applications requires thoughtful folder structure from the beginning.
-
-💖 User testing helped me catch UI inconsistencies that I had overlooked.
+- Separating game logic from UI components made the project much easier to maintain.
+- React Context helps to manage shared settings across multiple pages.
+- Organizing larger React applications requires thoughtful folder structure from the beginning.
+- User testing helped me catch UI inconsistencies that I had overlooked.
 
 ---
 
@@ -114,11 +106,11 @@ src/
 
 ## 🌷 Future Ideas
 
-- ✨ Improve UI consistency across every game
-- 🎨 Add smoother page transitions and animations
-- 🏆 Add achievements and player statistics
-- 🎵 Add optional sound effects and music
-- 📱 Continue improving mobile responsiveness
+- Improve UI consistency across every game
+- Add smoother page transitions and animations
+- Add achievements and player statistics
+- Add optional sound effects and music
+- Continue improving mobile responsiveness
 
 ---
 

@@ -14,7 +14,6 @@ export function AppLayout() {
     <main>
       <header>
         <h1>Welcome to the Arcade Hub</h1>
-        <p>Developed by: Nadia Cowins</p>
       </header>
       <Navigation />
       <Outlet />

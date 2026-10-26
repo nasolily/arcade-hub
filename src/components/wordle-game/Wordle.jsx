@@ -19,7 +19,7 @@ const Wordle = () => {
       .catch(() => setTargetWord("REACT"));
   }, []);
 
-  // 🔥 Reset overlay whenever game ends
+  // Reset overlay whenever game ends
   useEffect(() => {
     if (isGameOver) {
       setShowOverlay(true);
@@ -135,7 +135,7 @@ const Wordle = () => {
         })}
       </div>
 
-      {/* 👇 Button BELOW grid after closing overlay */}
+      {/* Button below grid after closing overlay */}
       {isGameOver && !showOverlay && (
         <div className="play-again-container">
           <button onClick={() => window.location.reload()}>
@@ -144,7 +144,7 @@ const Wordle = () => {
         </div>
       )}
 
-      {/* 👇 Overlay */}
+      {/* overlay */}
       {isGameOver && showOverlay && (
         <div className="game-over-box">
           <button

@@ -89,7 +89,7 @@ export function HangmanGamePage() {
     );
   }
 
-  // --- MENU 3: Join (Guest) Form ---
+  // join (guest) form
   if (isJoiningRoom && !gameMode) {
     return (
       <div className="mode-selection card" style={{ textAlign: 'center', padding: '20px' }}>
@@ -110,7 +110,7 @@ export function HangmanGamePage() {
     );
   }
 
-  // --- THE ACTUAL GAME ---
+  // THE ACTUAL GAME
   return (
     <HangmanView 
       gameMode={gameMode} 

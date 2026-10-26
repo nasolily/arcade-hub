@@ -14,7 +14,7 @@
   background-color: var(--color-background);
 }
 
-/* Main content container */
+/* main content container */
 .main-content {
   display: flex;
   flex-direction: column;
@@ -22,14 +22,14 @@
   align-items: center;
 }
 
-/* Main element styling */
+/* main element styling */
 main {
   background-color: var(--color-background);
   color: var(--color-text);
   min-height: 100vh;
 }
 
-/* Responsive layout */
+/* responsive layout */
 @media (max-width: 768px) {
   .app {
     padding: 1rem;

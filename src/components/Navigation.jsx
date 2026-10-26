@@ -1,10 +1,12 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { loadSettings } from "../logic/settings";
 import { avatars } from "../logic/avatars"; 
+import { useState } from "react";
 
 export function Navigation() {
   const navigate = useNavigate();
   const settings = loadSettings();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const userAvatar = avatars.find((a) => a.key === settings?.avatar) || avatars[0];
 
@@ -15,17 +17,21 @@ export function Navigation() {
 
   return (
     <nav className="main-nav">
-      <div className="nav-links">
+      <button
+            className="menu-toggle"
+            type="button"
+            onClick={() => setMenuOpen(previous => !previous)}
+            aria-expanded={menuOpen}
+            aria-label="Toggle navigation menu"
+          >
+            ☰
+        </button>
+      <div className={menuOpen ? "nav-links open" : "nav-links"}>
         <NavLink to="/">Home</NavLink>
-        {` | `}
         <NavLink to="/lobby">Lobby</NavLink>
-        {` | `}
         <NavLink to="/game/hangman">Hangman</NavLink>
-        {` | `}
         <NavLink to="/game/rps">Rock Paper Scissors</NavLink>
-        {` | `}
         <NavLink to="/game/tic-tac-toe">Tic-Tac-Toe</NavLink>
-        {` | `}
         <NavLink to="/game/wordle">Wordle</NavLink>
       </div>
 

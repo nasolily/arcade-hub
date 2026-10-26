@@ -1,6 +1,6 @@
 import { capitalize } from "../utils/string_formatting";
 import { avatars } from "../logic/avatars";
-import { useLocation, useNavigate } from "react-router-dom"; // Added useNavigate
+import { useLocation, useNavigate } from "react-router-dom";
 
 export const LobbyView = ({
   onGameStart,

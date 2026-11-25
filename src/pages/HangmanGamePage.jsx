@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { GameView as HangmanView } from "./HangmanView";
 import { createRoom } from "../logic/hangman-api";
 
+// This page handles the logic for selecting the game mode (single player, create duel, join duel) and then renders the appropriate view based on the user's choice. It also manages the state for creating or joining a multiplayer room.
 export function HangmanGamePage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [gameMode, setGameMode] = useState(null);
